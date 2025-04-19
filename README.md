@@ -48,7 +48,6 @@ jupyter notebook --allow-root
 ### 6. Interact with the interface
 
 This should get your Jupyter‑based action client up and running smoothly. Open the notebook `action_client_ass2.ipynb` in Jupyter and run all cells to start the interface. Once it’s running, select an option from the dropdown menu: **Set a new goal** to send a new `(x, y)` target to the robot, **Cancel a goal** to abort the current navigation, or **Quit the program** to shut down the interface. 
-Scroll to the bottom of the notebook to view two live plots: the **Robot Trajectory** plot, which shows the robot’s path on the map (axes are inverted because the origin is at the top‑left corner), and the **Goal Statistics** plot, a bar chart displaying how many goals were reached versus not reached.
 
 ### 7. Service interface
 
